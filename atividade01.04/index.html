@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Salário Líquido</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Calculadora de Salário 2026</h2>
+        <form action="index.php" method="POST">
+            <div class="campo">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="campo">
+                <label for="salario">Salário Bruto (R$):</label>
+                <input type="number" id="salario" name="salario" step="0.01" required>
+            </div>
+            <div class="campo">
+                <label for="faltas">Quantidade de Faltas:</label>
+                <input type="number" id="faltas" name="faltas" min="0" value="0">
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
