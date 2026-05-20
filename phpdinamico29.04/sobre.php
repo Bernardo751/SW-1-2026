@@ -6,7 +6,7 @@ $paginaAtual = basename($_SERVER['PHP_SELF']);
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Ben 10 | Séries e Filmes</title>
+    <title>Ben 10-Séries e Filmes</title>
     <style>
         :root { --green: #39FF14; --dark: #0a0a0a; }
         * { margin: 0; padding: 0; box-sizing: border-box; }

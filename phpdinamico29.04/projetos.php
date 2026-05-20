@@ -6,7 +6,7 @@ $paginaAtual = basename($_SERVER['PHP_SELF']);
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Omnitrix | Database de Vilões</title>
+    <title>Omnitrix-Database de Vilões</title>
     <style>
         :root { --green: #39FF14; --dark: #0a0a0a; }
         * { margin: 0; padding: 0; box-sizing: border-box; }
